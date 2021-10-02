@@ -1,5 +1,7 @@
 const express = require('express')
 const fs = require('fs')
-fs.mkdir('sami.txt', (err) => {
-    console.log(err)
-})
+
+
+fs.writeFile("sami.txt/aqib.txt", "sami is good", (err) => {
+    console.log(err);
+});
